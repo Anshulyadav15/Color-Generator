@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b4c3df;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  padding-left: 2rem;
+}
+
+.error {
+  border-color: red;
+}
+
+.container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  margin-right: 2rem;
+}
+
+input {
+  border-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #4569af;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-color: transparent;
+  border: 1px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.container-color {
+  margin: 0 2rem;
+  min-height: calc(95vh - 100px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(85px, 1fr));
+}
+
+.color {
+  color: #2b2b2b;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 0.2rem;
+}
+
+.color-light {
+  color: #fff;
+}
+
+.alert {
+  padding-top: 2rem;
+  color: #b7b5b6;
+}
+
+.percent-value {
+  padding-top: 1rem;
+}
+
+.color-value {
+  padding-top: 0.5rem;
+}
+
+@media screen and (max-width: 776px) {
+  .container h3 {
+    font-size: 1.8rem;
+  }
+  input,
+  .btn {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .container {
+    padding: 0;
+    display: block;
+  }
+  .container h3 {
+    font-size: 1.2rem;
+    padding: 0.7rem 0;
+  }
+  .color,
+  .color-light {
+    font-size: 0.8rem;
+  }
+}
