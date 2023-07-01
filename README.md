@@ -1,1 +1,1 @@
-https://github.com/Anshulyadav15/Color-Generator.git
+https://anshul-yadav-color-generator-546180.netlify.app
